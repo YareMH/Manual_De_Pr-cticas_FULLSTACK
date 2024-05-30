@@ -1,0 +1,22 @@
+body {
+    background-image: url("../IMGS6.jpg") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #f80808;
+}
+.error-message {
+    background: rgba(255, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 800px;
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+}
+.error-message h1 {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.7), 0 0 30px rgba(255, 0, 0, 0.7);
+}

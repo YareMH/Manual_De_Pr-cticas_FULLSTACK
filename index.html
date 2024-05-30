@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <link rel="stylesheet" type = "text/css" href="./styles/style.css">
+</head>
+<body>
+    <form class="glass-form" action="login.php">
+        <h1>INICIO DE SESIÓN</h1>
+        <label for="usrName">Usuario:</label>
+        <input type="text" id="usrName" name="usrName">
+        <label for="passwrd">Contraseña:</label>
+        <input type="password" id="passwrd" name="passwrd">
+        <input type="submit" value="Iniciar sesión">
+        <button type="button" onclick="location.href='views/v_register.php'">
+        Registrar
+        </button>
+        <button type="button" onclick="location.href='views/select.php'">
+            Mostrar
+        </button>
+        <button type="button" onclick="location.href='views/sp.php'">
+            Proceso Almacenado
+        </button>
+        <button type="button" onclick="location.href='views/deletesp.php'">
+            Borrar Proceso Almacenado
+        </button>
+</form>
+</body>
+</html>
